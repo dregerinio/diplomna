@@ -1,0 +1,226 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/background-image.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+#sidebar {
+    border-right: 5px solid white;
+    height: 100%;
+    padding: 0px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+#sidebar .sidebar-row {
+    padding: 5px 0px;
+    border-bottom: 5px solid white;
+}
+
+#sidebar img {
+    width: 100px;
+}
+
+#sidebar .sidebar-button {
+    font-size: 20px;
+}
+
+#sidebar .sidebar-button:hover {
+    background-color: #3CB371;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#homepage-filler {
+    padding: 370px 150px 0px 150px;
+    font-size: 38px;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#login-tray {
+    color: white;
+}
+
+.page-content {
+    height: 100%;
+}
+
+#user-profile-form {
+    margin-top: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+}
+
+#user-profile-form label {
+    padding-top: 4px;
+}
+
+#user-profile-form .form-header {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+#user-profile-form button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#user-profile-form button:hover {
+    background-color: #3CB371;
+}
+
+
+.text-right {
+    text-align: right;
+}
+
+.form-row {
+    margin: 0px 15px;
+    background-color: white;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.form-input {
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.league-card {
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 30px 70px;
+}
+
+.league-card:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.league-card .league-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.league-card .league-logo img {
+    height: 150px;
+}
+
+.league-card .league-footer {
+    padding: 15px 0;
+}
+
+.league-card .league-footer img {
+    width: 100%;
+}
+
+.team-card {
+    padding-top: 5px;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin: 30px 70px;
+}
+
+.team-card:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.team-card .team-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.team-card .team-logo img {
+    height: 150px;
+}
+
+.team-card .team-footer {
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+#team-info-body{
+    height: 100%;
+}
+
+#team-players-holder{
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#team-players-holder::-webkit-scrollbar {
+    display: none;
+  }
+
+.player-card {
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 20px 70px;
+}
+
+.player-card:hover {
+    background-color: #3CB371;
+}
+
+.player-card .player-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+#team-stats {
+    margin: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+}
+
+#team-stats .team-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+#team-stats #team-stats-body {
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.player-stats{
+    margin: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+}
+
+.player-stats .player-title{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 0px;
+}
+
+.player-stats .player-stats-body {
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding-bottom: 15px;
+}
+
+.season-select-holder {
+    margin: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding-top: 10px;
+}
+
+.season-select-holder .select-col {
+    padding-top: 4px;
+}
